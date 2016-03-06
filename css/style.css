@@ -1,0 +1,128 @@
+.container{
+	margin-top:20px;
+}
+.panel{
+	box-shadow:none;
+}
+.panel-default{
+	border:0px;
+}
+.panel-default > .panel-heading{
+	background: #F8F8F8 !important;
+	color:#0382FE !important;
+	padding: 5px;
+}
+
+.col-md-3,.col-md-4{
+	padding :0;
+}
+
+.contacts-list{
+	padding:0px 15px;
+	min-height:300px;
+	border-right:1px solid #ddd;
+}
+
+.contact-keys {
+    position: absolute;
+    top: 70px;
+    right: 3px;
+    font-size: 10px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: #0382FE;
+}
+.contact-keys li{
+	cursor:pointer;
+}
+.circle{
+ 	background: #0382FE;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 2px 0px;
+    margin-left:1px;
+}
+
+.contacts-view {
+	padding: 15px;
+    margin-top: 10px
+}
+
+.contacts-view .label{
+	font-size: 13px;
+	color:#0382FE;
+	font-weight:normal;
+	padding:0;
+	margin:0;
+}
+
+img{
+	height:20px;
+	margin-left:10px;
+}
+
+.contacts-view .right-icons{
+	float:right;
+}
+.contacts-view .mobile-number{
+	float:left;
+}
+.contacts-view .mail{
+	color:#333;
+}
+
+.contacts-view address:nth-child(3),.contacts-view address:nth-child(4){
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0px;
+}
+
+.contacts-view address{
+    margin-bottom: 5px !important;
+}
+.contacts-view address:first-child{
+    padding-bottom: 15px;
+}
+
+a:hover,a:focus{
+	text-decoration:none;
+}
+
+.panel-heading a:nth-child(2){
+	color:#333;
+	font-weight:bold;
+}
+
+.alert {
+	position:absolute;
+	width:100%;
+}
+.panel-default > .panel-heading.searchbar{
+	background:#C9C9CE !important;
+}
+.searchbar input{
+	border:0px;
+    background: white;
+    width: 94%;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 1px 5px;
+    color: #333;
+}
+
+.searchbar input::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.searchbar input:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+.searchbar input::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+.searchbar input:-ms-input-placeholder {  
+   text-align: center; 
+}

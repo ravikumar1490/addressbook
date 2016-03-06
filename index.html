@@ -4,11 +4,80 @@
 <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 <meta content="utf-8" http-equiv="encoding">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript" src="scripts/jquery-2.1.0.min.js"> </script>
+ <link rel="stylesheet" href="css/bootstrap.css" />
+ <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<h1>Test page</h1>
-</body>
+<div class="container">
+	
+	  <div class="row">
 
+	    <div class="col-md-3 contacts">
+	      <div class="panel panel-default">
+		  <div class="panel-heading ">
+			  <a class="pull-left" style="width:33%">Groups</a>
+			  <a class="pull-left">All Contacts</a>
+	          <a class="pull-right" href="#" id="addContact"><img src="img/plus.png"/></a>
+	          <div class="clearfix"></div>
+		 </div>
+		 <div class="panel-heading searchbar">
+			  <input type="search" id="search" placeholder="Search" />
+		 </div>
+		  <div class="contacts-list list-group">
+		  
+		  </div>
+
+		  <ul class="contact-keys">
+		  	<li data-key="a">A</li>
+		  	<li data-key="b" class="circle"></li>
+		  	<li data-key="c">C</li>
+		  	<li data-key="d" class="circle"></li>
+		  	<li data-key="f">F</li>
+		  	<li data-key="g" class="circle"></li>
+		  	<li data-key="h">H</li>
+		  	<li data-key="i" class="circle"></li>
+		  	<li data-key="j">J</li>
+		  	<li data-key="k" class="circle"></li>
+		  	<li data-key="l">L</li>
+		  	<li data-key="m" class="circle"></li>
+		  	<li data-key="o">O</li>
+		  	<li data-key="p" class="circle"></li>
+		  	<li data-key="q">Q</li>
+		  	<li data-key="r" class="circle"></li>
+		  	<li data-key="s">S</li>
+		  	<li data-key="t" class="circle"></li>
+		  	<li data-key="u">U</li>
+		  	<li data-key="v" class="circle"></li>
+		  	<li data-key="x">X</li>
+		  	<li data-key="y" class="circle"></li>
+		  	<li data-key="z">Z</li>
+		  	<li data-key="#">#</li>
+		  </ul>
+
+		</div>
+	      
+	    </div>
+	    <div class="col-md-4">
+	      	<div class="panel panel-default">
+	      	<div class="alert" role="alert" style="display:none"></div>
+		  	<div class="panel-heading text-right" >
+		  		<a href="#" id="editLink">Edit</a>
+		  	</div>
+			<div class="contacts-view">
+				
+
+			</div>
+		 
+		 </div>
+			
+	    </div>
+	  </div>
+	
+	
+</div>
+<script type="text/javascript" src="scripts/jquery-2.1.0.min.js"> </script>
+<script type="text/javascript" src="scripts/contactlist.js"> </script>
+<script type="text/javascript" src="scripts/main.js"> </script>
+</body>
 </html>
